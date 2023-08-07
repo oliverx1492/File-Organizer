@@ -9,6 +9,6 @@ At first you need to install Python. You can download it from here: https://www.
 After installing you are ready to use my programm. Open the file filesorter.py in any code editor like VS Code. The only thing you have to do is change path to the path of your directory you want to sort. You find the path variable in line 9.
 The correct way to write the path: path = "C:/Your/path/to/directory"
 Save the file and you can close it. Now open your command line (f.e. cmd) and move to that directory where filesorter.py is been saved. If you want to run the programm type in following command: 
-python filesorter.py
+##### python filesorter.py
 and press Enter. Thats all. Now your files has been sorted
 
