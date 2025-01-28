@@ -1,14 +1,33 @@
-# File-Organizer
-a simple organizer that sorts your files by file format
+# FileSorter - A Simple File Organizer
 
-### about the project
-This Python project will help you to organize your working space. The directoy will be scanned and a folder will be created for each file type and all files of that file type will be moved to that folder. For example all pdf files will then be found in a folder called pdf.
+## About the Project
+FileSorter is a Python script designed to help you organize your files efficiently. It scans a specified directory, identifies files by their formats, creates a folder for each file type, and moves the files into their respective folders.
 
-### how to use
-At first you need to install Python. You can download it from here: https://www.python.org/downloads/
-After installing you are ready to use my programm. Open the file filesorter.py in any code editor like VS Code. The only thing you have to do is change path to the path of your directory you want to sort. You find the path variable in line 9.
-The correct way to write the path: path = "C:/Your/path/to/directory"
-Save the file and you can close it. Now open your command line (f.e. cmd) and navigate to that directory where filesorter.py is been saved. If you want to run the programm type in following command: 
-##### python filesorter.py
-and press Enter. Thats all. Now your files has been sorted. Congratulations!
+For example:
+- All `.pdf` files will be moved into a folder named `pdf`.
+- All `.jpg` files will be moved into a folder named `jpg`.
+
+This tool is perfect for decluttering your working space and keeping files organized.
+
+---
+
+## How to Use
+
+### Step 1: Install Python
+If you haven't already, install Python on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
+
+### Step 2: Modify the Script
+1. Open the `filesorter.py` script in any code editor (e.g., VS Code).
+2. Locate the `path` variable (around line 9).
+3. Set the `path` variable to the directory you want to organize. Use the following format for the path:
+   ```python
+   path = "C:/Your/path/to/directory"
+
+### Step 3: Run the Script
+1. Open your command line (e.g., Command Prompt on Windows, Terminal on macOS/Linux)
+2. Navigate to the directory where filesorter.py is located using the cd command "cd path/to/your/script"
+3. Run the script with following command: "python filesorter.py"
+
+Your files will now be sorted into folders based on their file types. Enjoy your organized workspace!
+
 
